@@ -1,0 +1,76 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.dropdown {
+    position: relative; 
+    left: -480px; 
+    top: 0px;
+    display: inline-block;
+    color: #d7a62f;
+    font-size: 40px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222233;
+    color: #AACCFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: grid;
+}
+a{
+    text-decoration: none;
+}
+
+.game--title {
+    font-size: 50px;
+    color: #d7a62f;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #2ac70a;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #f7e4ac;
+    width: 200px;
+    height: 50px;
+    font-size: 27px;
+    color: #ba1818;
+    box-shadow: 2px 2px 2px 2px #d86c23;
+    border: 2px solid #d86c23;
+}
